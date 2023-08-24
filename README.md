@@ -1,43 +1,11 @@
 <a name="readme-top"></a>
 
-<!--
-!!! IMPORTANT !!!
-This README is an example of how you could professionally present your codebase. 
-Writing documentation is a crucial part of your work as a professional software developer and cannot be ignored. 
-
-You should modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
-
-For more information on the importance of a professional README for your repositories: https://github.com/microverseinc/curriculum-transversal-skills/blob/main/documentation/articles/readme_best_practices.md
--->
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>📖 Decode Morse Code </b></h3>
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -45,247 +13,161 @@ For more information on the importance of a professional README for your reposit
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
   - [Setup](#setup)
-  - [Install](#install)
+  - [Prerequisites](#prerequisites)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖📖 Decode Morse Code  <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+**This project employs the Ruby programming language to proficiently decode Morse code, showcasing the language's expertise in handling complex tasks of symbol translation.**
 
-**[your_project__name]** is a...
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
+The various stacks used for the project includes the following
 <details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
+  <summary>Ruby</summary>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
 
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+- **Run a program using the command line.**
+- **Use Ruby syntax for basic programming operations.**
+- **Use Ruby to solve basic coding challenges.**
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Ruby](https://rubyinstaller.org/downloads/) installed on your computer.
 
 ### Prerequisites
+From your command line:
 
-In order to run this project you need:
+On macOS, by using [Homebrew](https://brew.sh/) you can install.
 
-<!--
-Example command:
-
-```sh
- gem install rails
+```bash
+# install rbenv
+$ brew install rbenv
 ```
- -->
+
+```bash
+# install ruby-build
+$ brew install ruby-build
+```
+
+On Windows, by using [chocolatey](https://chocolatey.org) you can install.
+
+```bash
+# install ruby
+C:\> choco install ruby
+```
+
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+```bash
+# Clone this repository
+$ git clone https://github.com/Kgomotso196/Decode-Morse-Message.git
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+# Go into the repository
+$ cd Decode-Morse-Message
+
+# Install dependencies
+$ bundle install
+
 ```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
 
 ### Usage
 
-To run the project, execute the following command:
+After you clone this repo to your desktop and install the dependencies, go to its root directory and run `ruby decode_morse_code.rb` to run the application.
 
-<!--
-Example command:
 
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@yemidada](https://github.com/yemidada)
+- Twitter: [@nairareport](https://twitter.com/nairareport)
+- LinkedIn: [yemidada](https://linkedin.com/in/yemidada)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Kgomotso (Troos) Nacane**
+- GitHub: [Troos](https://github.com/Kgomotso196)
+- Twitter: [Troos](https://twitter.com/t_r_o_o_s)
+- LinkedIn: [Troos](https://linkedin.com/in/kgomotso-nacane)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Add more features**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Kgomotso196/Decode-Morse-Message/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project, we kindly request you to show your support by giving it a star and considering following our social media pages. Your engagement would be greatly appreciated!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+We would like to thank Microverse for proposing this project, and extend our heartfelt thanks to our fellow programmers for their assistance whenever possible.
 
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
+
+## ❓ FAQ <a name="faq"></a>
+
+
+- **Do you need ruby installed on your machine**
+
+  - Yes, ruby need to be running properly on your machine
+
+- **Can you test linter on your local machine and github**
+
+  - Yes, you can do both
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+ This project is [MIT](./MIT.md) licensed. 
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
