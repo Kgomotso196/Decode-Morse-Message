@@ -109,7 +109,7 @@ After you clone this repo to your desktop and install the dependencies, go to it
 👤 **Author**
 
 - GitHub: [@yemidada](https://github.com/yemidada)
-- Twitter: [@naijavine](https://twitter.com/naijavine)
+- Twitter: [@nairareport](https://twitter.com/nairareport)
 - LinkedIn: [yemidada](https://linkedin.com/in/yemidada)
 
 👤 **Kgomotso (Troos) Nacane**
