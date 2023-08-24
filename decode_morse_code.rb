@@ -11,22 +11,22 @@ def decode_char(morse_code)
 end
 
 def decode_word(morse_word)
-  str = ''
+  string = ''
   splited_arr = morse_word.split
   splited_arr.each do |character|
-    str += decode_char(character)
+    string += decode_char(character)
   end
-  str
+  string
 end
 
 def decode_sentence(morse_sent)
-  str = ''
+  string = ''
   splited_arr = morse_sent.split('   ')
   splited_arr.each do |sentence|
-    str += decode_word(sentence)
-    str += ' '
+    string += decode_word(sentence)
+    string += ' '
   end
-  str.strip
+  string.strip
 end
 
 puts decode_char('.-')
